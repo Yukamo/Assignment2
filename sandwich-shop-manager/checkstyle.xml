@@ -6,11 +6,9 @@
 		<property name="header" value="////////////////////////////////////////////////////////////////////\n// [Enrico] [Galdeman] [1169549]\n////////////////////////////////////////////////////////////////////" />
 		<property name="fileExtensions" value="java"/>
 	</module>
-
 	<module name="FileLength">
 		<property name="fileExtensions" value="java"/>
 	</module>
-
 	<module name="TreeWalker">
 		<module name="BooleanExpressionComplexity"/>
 		<module name="CyclomaticComplexity"/>
