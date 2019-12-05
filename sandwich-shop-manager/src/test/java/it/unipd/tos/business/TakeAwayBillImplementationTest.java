@@ -54,7 +54,7 @@ public class TakeAwayBillImplementationTest {
 			System.err.print(e);
 		}	
 	}
-	
+
 	@Test(expected = TakeAwayBillException.class)
 	public void testGetOrderPrice_ThrowsException() throws TakeAwayBillException{
     	MenuItem dummyItem = new MenuItemImplementation("panino veegano", ItemType.Panino, 8.0);
